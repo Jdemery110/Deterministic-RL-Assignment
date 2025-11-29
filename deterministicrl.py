@@ -314,7 +314,7 @@ def add_summary(algorithm, gamma, iteration, V, policy):
 
 def print_summary_table():
     print("=" * 80)
-    print("Summary Table (suggested format style)")
+    print("Summary Table:")
     print("=" * 80)
     header = f"{'Algorithm':15} {'γ':5} {'Iteration':10} {'Policy':20} {'V(2)':8} {'V(3)':8} {'Notes'}"
     print(header)
